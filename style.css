@@ -1,0 +1,243 @@
+.gallery-image img {
+    width: 100%;
+}
+
+header .header-banner {
+
+    background-image: url("img/header.png");
+    width: 100%;
+    height: calc(100vh - 500px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    }
+
+header h1 {
+
+        font-family: "Gentium Basic", serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 60px;
+        color: #ffffff;
+        line-height: 70px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 8px #000000;
+        
+        }
+        
+header h2 {
+        
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+        
+    }
+
+header .logo {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+header nav ul {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center; /*IE*/
+    width: fit-content;
+    
+    }
+    
+    header nav ul li {
+    
+    display: inline-block;
+    padding: 16px 16px;
+    
+}
+
+nav ul li a {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+footer {
+
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #172029;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+.disclaimer {
+
+    display: none;
+    
+}
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+    
+    }
+    
+    footer ul li {
+    
+    display: block;
+    padding: 0 0 10px 0;
+    
+    }
+    
+    footer ul li p {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+    }
+    
+    footer ul li a {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.footer-sm {
+
+    width: 32px;
+    float: right;
+    
+    }
+    
+    .footer-sm img {
+    
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+hr {
+
+    color: #4f5663;
+    border-width: 2px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    
+    }
+    
+    .gallery-h2 {
+    
+    font-family: "Gentium Basic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: #3a383d;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.gallery-image {
+
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+    
+    } 
+    
+    .post-header {       
+    
+    /*kujundus*/
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 9px #111111;
+    
+       /*positsioneerimine*/
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} 
+
+.gallery-links {
+
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 950px) {
+
+    .disclaimer {
+    
+          display: block;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 300;
+          font-size: 18px;
+          letter-spacing: 2px;
+          line-height: 24px;
+          color: #ffffff;
+          text-transform: uppercase;
+          float: left;
+          margin: 0 80px;
+    
+    }
+    
+    .disclaimer span {
+    
+          font-style: italic;
+    
+    }
+    
+    }
+
+
+
+
+
+
+
